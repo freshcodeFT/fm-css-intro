@@ -1,0 +1,54 @@
+/*
+  Ctrl+K+C - быстрое создание комментария
+
+  Селекторы тегов - приоритет 0001
+  Селекторы классов - приоритет 0010
+  Селекторы id - приоритет 0100
+  Inline стили - приоритет 1000
+*/
+
+/* tag selector */
+h2 {
+  color: rgba(255, 0, 0, 1);
+  background-color: bisque;
+  font-size: 40px;
+  line-height: 0.8em;
+}
+/* class selector */
+.main-caption {
+  font-size: 48px;
+  line-height: 1.2em;
+  color: blue;
+}
+/* id selector */
+#caption2 {
+  color: rgb(36, 172, 250);
+  font-size: 20px;
+}
+
+.main-link {
+  font-size: 40px;
+  color: rgb(138, 131, 182);
+  /* text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #ff0c0c; */
+  text-decoration: wavy underline cornflowerblue;
+}
+
+.line-span {
+  font-size: 40px;
+  font-weight: 200;
+  font-family: "Newsreader", serif;
+}
+
+.info {
+  font-family: "Raleway", Arial, sans-serif;
+}
+
+.second-headline{
+  color: green;
+}
+
+.main-headline{
+  color: red;
+}
